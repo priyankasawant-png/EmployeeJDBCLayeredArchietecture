@@ -11,6 +11,7 @@ import java.sql.Statement;
 public class Demo {
 	
 	public static void main(String[] args) {
+		System.out.println("main class loaded");
 		Connection con=null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
